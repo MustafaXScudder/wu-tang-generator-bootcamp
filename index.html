@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wu-Tang Name Generator</title>
+  <link rel="stylesheet" href="wu_tang.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Wu-Tang Name Generator</h1>
+    <form id="wuTangForm">
+      <label>1. What's your favorite element?</label>
+      <input type="text" id="element" required />
+
+      <label>2. Describe your personality:</label>
+      <input type="text" id="personality" required />
+
+      <label>3. What’s your spirit animal?</label>
+      <input type="text" id="animal" required />
+
+      <label>4. Favorite color:</label>
+      <input type="text" id="color" required />
+
+      <label>5. A city that inspires you:</label>
+      <input type="text" id="city" required />
+
+      <button type="submit">Generate Name</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="generator.js"></script>
+</body>
+</html>
